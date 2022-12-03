@@ -1,0 +1,80 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Item', cursive;
+    background-color: #12181B;
+}
+
+.title {
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    margin-top: 5%;
+}
+
+.display {
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.playerX {
+    color: #09C372;
+}
+
+.playerO {
+    color: #498AFB;
+}
+
+.game-grid {
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 33% 33% 33%;
+    max-width: 300px;
+}
+
+.tile {
+    border: 1px solid white;
+    min-height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    cursor: pointer;
+}
+
+.hide {
+    display: none;
+}
+
+.restart {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1em;
+}
+
+#reset {
+    color: white;
+    border-radius: 8px;
+    padding: 10px;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+    background-color: #FF3860;
+}
+
+.signature {
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    margin-top: 2em;
+}
+
+a:visited {
+    color: white;
+}
